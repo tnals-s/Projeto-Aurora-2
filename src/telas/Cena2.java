@@ -31,8 +31,8 @@ public class Cena2 extends JPanel {
         setLayout(null);
 
         JLabel dialogo1 = new JLabel("<html>Aurora, você fez o certo em ligar.<br>"
-                + "Para enviarmos ajuda,<br>"
-                + "você sabe e dizer onde está exatamente?</html>");
+                + "Para enviarmos ajuda, você sabe me dizer<br>"
+                + "onde está exatamente?</html>");
         dialogo1.setForeground(Color.WHITE);
         dialogo1.setFont(new Font("Segoe UI", Font.PLAIN, 24));
         dialogo1.setVerticalAlignment(JLabel.TOP);

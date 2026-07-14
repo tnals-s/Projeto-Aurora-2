@@ -23,7 +23,7 @@ public class Viatura1 extends JPanel {
                 A ligação continua ativa.<br>
                 A equipe está tentando localizar Aurora.<br>
                 Enquanto isso, mantenha o atendimento.<br>
-                MISSÃO 1 DISPONÍVEL
+                MISSÃO 1 - DISPONÍVEL!
                 </html>
                 """);
         texto.setFont(new Font("Segoe UI", Font.PLAIN, 24));

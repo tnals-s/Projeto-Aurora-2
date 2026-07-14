@@ -22,7 +22,7 @@ public class Viatura2 extends JPanel {
                 <html>
                 Novas informações foram registradas.<br>
                 Continue auxiliando a equipe.<br>
-                MISSÃO 2 DISPONÍVEL
+                MISSÃO 2 - DISPONÍVEL!
                 </html>
                 """);
         texto.setFont(new Font("Segoe UI", Font.PLAIN, 24));

@@ -11,7 +11,7 @@ public class Mapa2 extends JPanel {
 
     public Mapa2(Janela janela) {
         this.janela = janela;
-        fundo = new ImageIcon(getClass().getResource("/imagens/Mapa.jpeg")).getImage();
+        fundo = new ImageIcon(getClass().getResource("/imagens/MapaM2.png")).getImage();
         setLayout(null);
         
         JButton restaurante = new JButton();

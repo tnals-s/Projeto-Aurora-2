@@ -42,7 +42,7 @@ public class Pergunta1 extends JPanel {
         add(titulo);
         
         titulo2 = new JLabel("RESPOSTA CORRETA!");
-    	titulo2.setBounds(480, 40, 400, 50);
+    	titulo2.setBounds(430, 40, 500, 50);
     	titulo2.setForeground(new Color(190, 140, 255));
     	titulo2.setFont(new Font("Segoe UI Black", Font.BOLD, 36));
     	titulo2.setVisible(false);
