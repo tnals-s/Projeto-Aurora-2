@@ -133,8 +133,10 @@ public class Pergunta3 extends JPanel {
         if (r == 2) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
-        		É importante oferecer apoio e acolher a vítima.
-        		Entender o ciclo ajuda a ter empatia e a acolher a vítima em vez de culpá-la.
+        		Entender o ciclo ajuda a ter empatia e a acolher a vítima em
+        		vez de culpá-la.
+        		Desmistifiquemos o ditado popular "em briga de marido e mulher
+        		não se mete a colher", pois isso muitas vezes isola a vítima.
         	""");
         } 
         else {
@@ -144,7 +146,7 @@ public class Pergunta3 extends JPanel {
                     Ouvir e acolher a vítima sem julgamentos
                     e ligar para o 180 ou 190.
 
-                    Desmistificar o ditado popular "em briga de marido e mulher
+                    Desmistifiquemos o ditado popular "em briga de marido e mulher
                     não se mete a colher", pois isso muitas vezes isola a vítima.
                     """);
         }
