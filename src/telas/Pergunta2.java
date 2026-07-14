@@ -129,7 +129,7 @@ public class Pergunta2 extends JPanel {
         op2.setVisible(false);
         op3.setVisible(false);
 
-        if (r == 2) {
+        if (r == 3) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
 			O Ciclo da Violência possui três fases:

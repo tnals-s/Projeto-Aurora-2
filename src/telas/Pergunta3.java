@@ -135,8 +135,7 @@ public class Pergunta3 extends JPanel {
         resposta.setText("""
 	        Entender o ciclo ajuda a ter empatia e a acolher a vítima em vez de culpá-la.
 	        		
-	        Desmistifiquemos o ditado popular "em briga de marido e mulher não se mete a colher",
-	        pois isso muitas vezes isola a vítima.
+	        Desmistifiquemos o ditado popular "em briga de marido e mulher não se mete a colher", pois isso muitas vezes isola a vítima.
         	""");
         } 
         else {

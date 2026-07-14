@@ -61,8 +61,7 @@ public class Pergunta4 extends JPanel {
         pergunta.setText("""
                 1. Uma punição aplicada ao agressor somente após ele ser julgado e condenado pelo juiz.
 
-                2. Uma ordem judicial rápida que proíbe o agressor de se aproximar ou fazer contato com a vítima,
-                sob pena de prisão imediata se descumprida.
+                2. Uma ordem judicial rápida que proíbe o agressor de se aproximar ou fazer contato com a vítima, sob pena de prisão imediata se descumprida.
 
                 3. Um documento que obriga o casal a fazer terapia ou mediação familiar para tentar salvar o casamento.
                 """);
@@ -133,10 +132,9 @@ public class Pergunta4 extends JPanel {
         if (r == 2) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
-        	É fundamental ao identificar o abuso, que não é só agressão física, compreender
-        	a dificuldade da vítima no ciclo da violência, saber como agir (Ligue 180 ou 190 / acolhimento).
+        	É fundamental ao identificar o abuso, que não é só agressão física, compreender a dificuldade da vítima no ciclo da violência e saber como agir (Ligue 180 ou 190 / acolhimento).
         	
-        	E conhecer a proteção jurídica imediata (Medidas Protetivas).
+        	Além disso, conhecer a proteção jurídica imediata (Medidas Protetivas).
         			
         	Isso pode salvar uma vida.
         	""");
@@ -145,9 +143,8 @@ public class Pergunta4 extends JPanel {
             resposta.setText("""
                     A alternativa correta era:
 
-                    Uma ordem judicial rápida que proíbe o agressor
-                    de se aproximar ou fazer contato com a vítima,
-                    sob pena de prisão imediata se descumprida.
+                    Uma ordem judicial rápida que proíbe o agressor de se aproximar ou
+                    fazer contato com a vítima, sob pena de prisão imediata se descumprida.
 
                     Uma denúncia não é apenas um papel assinado.
                     A ordem judicial protege as vítimas.
