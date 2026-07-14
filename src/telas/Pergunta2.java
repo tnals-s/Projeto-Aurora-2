@@ -144,7 +144,8 @@ public class Pergunta2 extends JPanel {
             resposta.setText("""
                     A alternativa correta era:
 
-            		Devido ao "Ciclo da Violência", onde a fase da agressão é sucedida pela fase da "lua de mel".
+            		Devido ao "Ciclo da Violência", onde a fase da agressão é
+            		sucedida pela fase da "lua de mel".
 
                     Muitas vítimas ficam confusas e dependentes emocionalmente.
                     """);

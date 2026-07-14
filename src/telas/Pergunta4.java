@@ -133,13 +133,12 @@ public class Pergunta4 extends JPanel {
         if (r == 2) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
-        			É fundamental ao identificar o abuso, que não é só
-        			agressão física, compreender a dificuldade da vítima
-        			no ciclo da violência, saber como agir (Ligue 180
-        			ou 190 / acolhimento).
-        			E conhecer a proteção jurídica imediata (Medidas Protetivas).
+        	É fundamental ao identificar o abuso, que não é só agressão física, compreender
+        	a dificuldade da vítima no ciclo da violência, saber como agir (Ligue 180 ou 190 / acolhimento).
+        	
+        	E conhecer a proteção jurídica imediata (Medidas Protetivas).
         			
-        			Isso pode salvar uma vida.
+        	Isso pode salvar uma vida.
         	""");
         } 
         else {
