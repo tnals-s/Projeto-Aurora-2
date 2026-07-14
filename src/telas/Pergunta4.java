@@ -30,9 +30,9 @@ public class Pergunta4 extends JPanel {
         titulo = new JLabel("""
         		<html>
         		<center>
-        		PERGUNTA 1<br>
-        		Você sabe identificar padrões de abuso?<br>
-        		Com base no relato de Aurora, qual alternativa está correta?
+        		PERGUNTA 4<br>
+        		O que é uma "Medida Protetiva de Urgência"<br>
+        		prevista na Lei Maria da Penha?
         		</center>
         		</html>
         		""");
@@ -59,11 +59,12 @@ public class Pergunta4 extends JPanel {
         pergunta.setLineWrap(true);
         pergunta.setWrapStyleWord(true);
         pergunta.setText("""
-                1. Violência doméstica acontece apenas quando existe agressão física.
+                1. Uma punição aplicada ao agressor somente após ele ser julgado e condenado pelo juiz.
 
-                2. Controle excessivo, ameaças e manipulação também são formas de violência doméstica.
+                2. Uma ordem judicial rápida que proíbe o agressor de se aproximar ou fazer contato com a vítima,
+                sob pena de prisão imediata se descumprida.
 
-                3. Isso é normal. Todo casal passa por situações assim.
+                3. Um documento que obriga o casal a fazer terapia ou mediação familiar para tentar salvar o casamento.
                 """);
         add(pergunta);
 
@@ -89,14 +90,14 @@ public class Pergunta4 extends JPanel {
         op2 = new JButton("OPÇÃO 2");
         configurarBotao(op2);
         op2.setBounds(540, 670, 180, 50);
-        op2.addActionListener(e -> Pontuacao.removerPontos(5));
+        op2.addActionListener(e -> Pontuacao.adicionarPontos(5));
         op2.addActionListener(e -> verificarResposta(2));
         add(op2);
 
         op3 = new JButton("OPÇÃO 3");
         configurarBotao(op3);
         op3.setBounds(820, 670, 180, 50);
-        op3.addActionListener(e -> Pontuacao.adicionarPontos(5));
+        op3.addActionListener(e -> Pontuacao.removerPontos(5));
         op3.addActionListener(e -> verificarResposta(3));
         add(op3);
 
@@ -132,25 +133,21 @@ public class Pergunta4 extends JPanel {
         if (r == 2) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
-			A violência doméstica pode ocorrer de diversas formas.
-			
-			Ela nem sempre deixa marcas físicas.
-			
-			Controle excessivo, ameaças e manipulação também caracterizam violência contra a mulher.
-			
-			Reconhecer esses sinais é o primeiro passo para buscar ajuda.
-			
+        			É fundamental ao identificar o abuso, que não é só agressão física, compreender a
+        			dificuldade da vítima no ciclo da violência, saber como agir (Ligue 180 ou 190 / acolhimento)
+        			E conhecer a proteção jurídica imediata (Medidas Protetivas).
+        			
+        			Isso pode salvar uma vida.
         	""");
         } 
         else {
             resposta.setText("""
                     A alternativa correta era:
 
-                    Controle excessivo, ameaças e manipulação também
-                    caracterizam violência doméstica.
+                    Uma ordem judicial rápida que proíbe o agressor de se aproximar ou
+                    fazer contato com a vítima, sob pena de prisão imediata se descumprida.
 
-                    Muitas vítimas demoram a perceber que esses comportamentos
-                    também são formas de violência.
+                    Uma denúncia não é apenas um papel assinado. A ordem judicial protege as vítimas.
                     """);
         }
 
