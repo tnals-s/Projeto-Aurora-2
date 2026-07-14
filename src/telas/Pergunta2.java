@@ -136,9 +136,7 @@ public class Pergunta2 extends JPanel {
 			
 			Aumento da tensão, ato de violência e o arrependimento, ou fase "lua de mel".
 			
-			As promessas de mudança e carinho sucedidas da fase de agressão,
-			
-			gera confusão e dependência emocional nas vítimas.
+			As promessas de mudança e carinho sucedidas da fase de agressão, gera confusão e dependência emocional nas vítimas.
 			
         	""");
         } 
@@ -146,9 +144,7 @@ public class Pergunta2 extends JPanel {
             resposta.setText("""
                     A alternativa correta era:
 
-            		Devido ao "Ciclo da Violência", onde a fase da agressão é
-            		sucedida pela fase da "lua de mel".
-.
+            		Devido ao "Ciclo da Violência", onde a fase da agressão é sucedida pela fase da "lua de mel".
 
                     Muitas vítimas ficam confusas e dependentes emocionalmente.
                     """);
