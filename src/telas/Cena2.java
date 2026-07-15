@@ -31,12 +31,12 @@ public class Cena2 extends JPanel {
         setLayout(null);
 
         JLabel dialogo1 = new JLabel("<html>Aurora, você fez o certo em ligar.<br>"
-                + "Para enviarmos ajuda, você sabe me dizer<br>"
-                + "onde está exatamente?</html>");
+                + "Para enviarmos ajuda, você sabe me dizer onde está<br>"
+                + "exatamente?</html>");
         dialogo1.setForeground(Color.WHITE);
         dialogo1.setFont(new Font("Segoe UI", Font.PLAIN, 24));
         dialogo1.setVerticalAlignment(JLabel.TOP);
-        dialogo1.setBounds(400, 260, 650, 150);
+        dialogo1.setBounds(400, 240, 650, 150);
         add(dialogo1);
 
         dialogo2 = new JTextArea();

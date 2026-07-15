@@ -111,8 +111,8 @@ public class Pergunta4 extends JPanel {
 
     private void configurarBotao(JButton botao) {
         botao.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        botao.setForeground(Color.WHITE);
-        botao.setBackground(new Color(40, 40, 40));
+        botao.setForeground(new Color(240, 220, 255));
+        botao.setBackground(new Color(55, 35, 80));
         botao.setBorder(BorderFactory.createLineBorder(new Color(120, 80, 180), 3));
         botao.setFocusPainted(false);
     }

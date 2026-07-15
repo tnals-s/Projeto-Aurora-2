@@ -17,11 +17,10 @@ public class Cena1 extends JPanel {
 
     private final String falaAurora = """
     		Oi... eu me chamo Aurora, eu preciso de ajuda.
-    		Nos últimos anos, o comportamento do meu marido 
-    		mudou completamente.
-    		Ele controla tudo o que eu faço, decide com quem
-    		posso conversar e fica agressivo quando
-    		o desagrado. 
+    		Nos últimos anos, o comportamento do meu marido mudou 
+    		completamente.
+    		Ele controla tudo o que eu faço, decide com quem posso 
+    		conversar e fica agressivo quando o desagrado. 
     		Eu não sei mais o que fazer.
             """;
 
@@ -36,12 +35,12 @@ public class Cena1 extends JPanel {
         JLabel dialogo1 = new JLabel("Polícia Militar, emergência.");
         dialogo1.setForeground(Color.WHITE);
         dialogo1.setFont(new Font("Segoe UI", Font.PLAIN, 24));
-        dialogo1.setBounds(400, 280, 650, 40);
+        dialogo1.setBounds(400, 260, 650, 40);
         add(dialogo1);
 
         dialogo2 = new JTextArea();
-        dialogo2.setBounds(400, 430, 650, 220);
-        dialogo2.setFont(new Font("Segoe UI", Font.PLAIN, 20));
+        dialogo2.setBounds(400, 440, 650, 220);
+        dialogo2.setFont(new Font("Segoe UI", Font.PLAIN, 22));
         dialogo2.setForeground(Color.WHITE);
         dialogo2.setOpaque(false);
         dialogo2.setEditable(false);

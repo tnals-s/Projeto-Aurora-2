@@ -29,16 +29,16 @@ public class Cena4 extends JPanel {
 
         setLayout(null);
 
-        dialogo1 = new JLabel("<html><center>"
+        dialogo1 = new JLabel("<html>"
                 + "Compreendido, localizamos a rotatória central.<br>"
                 + "Consegue se lembrar de mais algum comércio ou<br>"
                 + "ponto de referência logo em seguida?"
-                + "</center></html>");
+                + "</html>");
         dialogo1.setForeground(Color.WHITE);
         dialogo1.setFont(new Font("Segoe UI", Font.PLAIN, 24));
         dialogo1.setHorizontalAlignment(SwingConstants.CENTER); // Centraliza horizontalmente
         dialogo1.setVerticalAlignment(SwingConstants.CENTER);   // Centraliza verticalmente no balão
-        dialogo1.setBounds (400, 260, 650, 150);
+        dialogo1.setBounds (340, 210, 650, 150);
         add(dialogo1);
 
         dialogo2 = new JTextArea();

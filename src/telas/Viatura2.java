@@ -33,8 +33,8 @@ public class Viatura2 extends JPanel {
         JButton botao = new JButton("CONTINUAR");
         botao.setBounds(310, 680, 200, 60);
         botao.setFont(new Font("Segoe UI", Font.BOLD, 16));
-        botao.setForeground(Color.WHITE);
-        botao.setBackground(new Color(40, 40, 40));
+        botao.setForeground(new Color(240, 220, 255));
+        botao.setBackground(new Color(55, 35, 80));
         botao.setBorder(BorderFactory.createLineBorder(new Color(120, 80, 180), 3));
         botao.setFocusPainted(false);
         botao.addActionListener(e -> {
