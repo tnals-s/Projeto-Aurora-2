@@ -31,7 +31,7 @@ public class Viatura2 extends JPanel {
         add(texto);
         
         JButton botao = new JButton("CONTINUAR");
-        botao.setBounds(310, 700, 200, 70);
+        botao.setBounds(310, 680, 200, 60);
         botao.setFont(new Font("Segoe UI", Font.BOLD, 16));
         botao.setForeground(Color.WHITE);
         botao.setBackground(new Color(40, 40, 40));

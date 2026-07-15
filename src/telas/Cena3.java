@@ -16,12 +16,10 @@ public class Cena3 extends JPanel {
     private JButton op3;
 
     private final String falaAurora = """
-    		Oi... eu me chamo Aurora, eu preciso de ajuda.
-    		Nos últimos anos, o comportamento do meu marido 
-    		mudou completamente.
-    		Ele controla tudo o que eu faço, decide com quem posso 
-    		conversar e fica agressivo quando o desagrado. 
-    		Eu não sei mais o que fazer.
+            Depois que passamos por essa igreja amarela, 
+            nós seguimos pela avenida principal e contornamos 
+            uma grande rotatória que tem uma fonte de água 
+            bem no meio dela.
             """;
 
     public Cena3(Janela janela) {
@@ -32,10 +30,13 @@ public class Cena3 extends JPanel {
 
         setLayout(null);
 
-        JLabel dialogo1 = new JLabel("Polícia Militar, emergência.");
+        JLabel dialogo1 = new JLabel("<html>Aurora, nossa equipe já está na região da praça.<br>"
+                + "Você consegue se lembrar de mais algum ponto de<br>"
+                + "referência após passar pela igreja?</html>");
         dialogo1.setForeground(Color.WHITE);
         dialogo1.setFont(new Font("Segoe UI", Font.PLAIN, 24));
-        dialogo1.setBounds(400, 280, 650, 40);
+        dialogo1.setVerticalAlignment(JLabel.TOP);
+        dialogo1.setBounds(400, 260, 650, 150); // Ajustado para 150 de altura devido ao HTML
         add(dialogo1);
 
         dialogo2 = new JTextArea();

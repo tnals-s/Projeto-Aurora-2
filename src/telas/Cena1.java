@@ -41,7 +41,7 @@ public class Cena1 extends JPanel {
 
         dialogo2 = new JTextArea();
         dialogo2.setBounds(400, 430, 650, 220);
-        dialogo2.setFont(new Font("Segoe UI", Font.PLAIN, 24));
+        dialogo2.setFont(new Font("Segoe UI", Font.PLAIN, 20));
         dialogo2.setForeground(Color.WHITE);
         dialogo2.setOpaque(false);
         dialogo2.setEditable(false);

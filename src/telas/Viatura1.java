@@ -32,22 +32,22 @@ public class Viatura1 extends JPanel {
         add(texto);
         
         JButton botao = new JButton("CONTINUAR");
-        botao.setBounds(310, 700, 200, 70);
+        botao.setBounds(310, 680, 200, 60); 
         botao.setFont(new Font("Segoe UI", Font.BOLD, 16));
         botao.setForeground(Color.WHITE);
         botao.setBackground(new Color(40, 40, 40));
         botao.setBorder(BorderFactory.createLineBorder(new Color(120, 80, 180), 3));
         botao.setFocusPainted(false);
         botao.addActionListener(e -> {
-        	Som.pararSirene();
+            Som.pararSirene();
             janela.trocarTela("MAPA1");
         });
         add(botao);
-    	}
+    }
     
-        public void iniciarCena() { 
-            Som.tocarSirene();
-        }
+    public void iniciarCena() { 
+        Som.tocarSirene();
+    }
      
     @Override
     protected void paintComponent(Graphics g) {
@@ -55,4 +55,3 @@ public class Viatura1 extends JPanel {
         g.drawImage(fundo, 0, 0, getWidth(), getHeight(), this);
     }
 }
-
