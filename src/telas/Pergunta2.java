@@ -31,8 +31,8 @@ public class Pergunta2 extends JPanel {
         		<html>
         		<center>
         		PERGUNTA 2<br>
-        		Por que muitas mulheres têm dificuldade<br>
-        		de romper e sair de um relacionamento abusivo?
+        		Por que o registro do Boletim de Ocorrência<br>
+        		é tão importante em casos de violência doméstica?
         		</center>
         		</html>
         		""");
@@ -59,11 +59,11 @@ public class Pergunta2 extends JPanel {
         pergunta.setLineWrap(true);
         pergunta.setWrapStyleWord(true);
         pergunta.setText("""
-                1. Porque a dependência financeira é o único fator que as impede de ir embora.
+                1. Porque obriga o agressor a ser demitido de forma imediata do emprego, sem direito a recorrer na justiça do trabalho.
 
-                2. Porque elas aceitam a situação por questões culturais ou religiosas de submissão.
+                2. Trata-se de uma formalidade opcional que serve apenas para fins de estatística, sem impacto real no andamento do caso.
 
-                3. Devido ao "Ciclo da Violência", onde a fase da agressão é sucedida pela fase da "lua de mel".
+                3. Porque formaliza a denúncia, dá início ao inquérito policial e permite o afastamento legal do agressor.
                 """);
         add(pergunta);
 
@@ -132,22 +132,16 @@ public class Pergunta2 extends JPanel {
         if (r == 3) {
         	titulo2.setVisible(true);       	
         resposta.setText("""
-			O Ciclo da Violência possui três fases:
-			
-			Aumento da tensão, ato de violência e o arrependimento, ou fase "lua de mel".
-			
-			As promessas de mudança e carinho sucedidas da fase de agressão, gera confusão e dependência emocional nas vítimas.
-			
+			O B.O. é a porta de entrada para que a rede de proteção estatal seja acionada, permitindo a instauração de investigação e o afastamento legal do agressor.
         	""");
         } 
         else {
             resposta.setText("""
                     A alternativa correta era:
 
-            		Devido ao "Ciclo da Violência", onde a fase da agressão é
-            		sucedida pela fase da "lua de mel".
+            		Porque formaliza a denúncia, dá início ao inquérito policial
+            		e permite o afastamento legal do agressor.
 
-                    Muitas vítimas ficam confusas e dependentes emocionalmente.
                     """);
         }
 
